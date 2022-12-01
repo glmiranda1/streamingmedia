@@ -1,0 +1,174 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  html {
+    background-color: #020659;
+  }
+  
+  body {
+    color: #FFFFFF;
+    font-family: Raleway;
+    margin: 0 auto;
+    width: 834px;
+  }
+  
+  h1 {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: #590242;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header p {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  nav {
+    background-color: #030A8C;
+    display: block;
+    padding: 10px;
+    top: 0px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    background-color: #590242;
+  }
+  
+  section {
+    background-color: #FFFFFF;
+  }
+  
+  dd {
+    color: #590242;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  dt {
+    color: #590242;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  
+  .more a {
+    background-color: #590242;
+    color: #FFFFFF;
+    float: right;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .more a:hover {
+    background-color: #020659;
+  }
+  
+  #trending h3 {
+    color: #590242;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #playlists {
+    background-color: #2699FB;
+  }
+  
+  #playlists h3 {
+    background-color: #FFFFFF;
+    color: #590242;
+    display: block;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #playlists figure {
+    background-color: #0D8DFB;
+    margin: 10px;
+  }
+  
+  #playlists h4 {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #playlists p {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  #curated h3 {
+    color: #590242;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #curated h4 {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #curated p {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  footer {
+    color: #590242;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  /* 834PX DESKTOP SCREEN */
+  @media screen and (min-width: 834px) {
+    
+  }
+  
+  /* 375PX MOBILE SCREEN */
+  @media screen and (min-width: 375px) {
+    
+  }
