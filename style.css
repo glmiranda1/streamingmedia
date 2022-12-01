@@ -198,6 +198,28 @@ main {
   background-color: #FFFFFF;
 }
 
+nav {
+  background-color: #030A8C;
+  display: block;
+  padding: 10px;
+  top: 0px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: #590242;
+}
+
 /* 834PX DESKTOP SCREEN */
 
 @media screen and (min-width:834px) {
