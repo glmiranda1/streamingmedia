@@ -198,12 +198,6 @@ main {
   background-color: #FFFFFF;
 }
 
-.music div {
-  bottom: 5px;
-  padding: 0px;
-  position: relative;
-}
-
 /* 834PX DESKTOP SCREEN */
 
 @media screen and (min-width:834px) {
