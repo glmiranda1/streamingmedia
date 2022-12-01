@@ -198,16 +198,10 @@ main {
   background-color: #FFFFFF;
 }
 
-nav {
-  background-color: #030A8C;
-  display: block;
-  padding: 10px;
-  top: 0px;
-}
-
 nav li {
-  display: inline-block;
-  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
 }
 
 nav a {
