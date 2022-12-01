@@ -75,7 +75,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   height: 55px;
   padding: 5px;
   position: absolute;
-  top: 240px;
+  top: 251px;
   width: 350px;
 }
 
@@ -85,7 +85,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 dl {
-  display: flex;
+  display: block;
 }
 
 dt {
