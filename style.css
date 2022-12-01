@@ -85,6 +85,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 dl {
+  display: flex;
   padding: 0px;
 }
 
@@ -120,6 +121,10 @@ audio {
   text-align: center;
   text-decoration: none;
   width: 150px;
+}
+
+.more a {
+  text-decoration: none;
 }
 
 .more:hover {
