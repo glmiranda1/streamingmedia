@@ -182,6 +182,10 @@ h2, h3 {
   line-height: 2em;
 }
 
+main {
+  background-color: #FFFFFF;
+}
+
 /* 834PX DESKTOP SCREEN */
 
 @media screen and (min-width:834px) {
