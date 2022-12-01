@@ -89,6 +89,18 @@ dl {
 }
 
 dt {
+  color: #590242;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 2em;
+  padding-right: 5px;
+}
+
+dd {
+  color: #590242;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 2em;
   padding-right: 5px;
 }
 
@@ -171,12 +183,12 @@ h1 {
   line-height: 2em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-h2, h3 {
+h2, h3, h4 {
   color: #590242;
   font-size: 20px;
   line-height: 2em;
