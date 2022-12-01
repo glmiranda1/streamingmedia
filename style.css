@@ -86,7 +86,11 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 .scroll div {
   display: flex;
-  padding: 0px;
+  padding: 10px;
+}
+
+dl {
+  display: flex;
 }
 
 dt {
@@ -203,8 +207,6 @@ h2, h3, h4 {
 main {
   background-color: #FFFFFF;
 }
-
-
 
 nav li {
   display: grid;
