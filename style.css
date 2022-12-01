@@ -84,6 +84,10 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   position: relative;
 }
 
+dl {
+  padding: 0px;
+}
+
 dt {
   color: #590242;
   font-size: 16px;
@@ -196,7 +200,7 @@ main {
 
 nav li {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
 }
 
