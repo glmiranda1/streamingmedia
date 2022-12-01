@@ -204,9 +204,12 @@ main {
   background-color: #FFFFFF;
 }
 
+
+
 nav li {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 834px;
   text-align: center;
 }
 
