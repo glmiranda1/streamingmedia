@@ -73,7 +73,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 .scroll div {
   background-color: rgba(255,255,255,.75);
   height: 50px;
-  padding: 0px;
+  padding: 5px;
   position: absolute;
   top: 251px;
   width: 350px;
@@ -84,7 +84,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   position: relative;
 }
 
-.scroll dl {
+dl {
   display: flex;
 }
 
