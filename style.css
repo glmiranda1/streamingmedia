@@ -84,7 +84,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   position: relative;
 }
 
-dl {
+.scroll div {
   display: flex;
   padding: 0px;
 }
@@ -116,6 +116,7 @@ audio {
   border-radius: 5px;
   color: #FFFFFF;
   display: block;
+  float: right;
   margin: 10px 0 30px 32px;
   padding: 10px;
   text-align: center;
