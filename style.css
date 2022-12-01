@@ -84,10 +84,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   position: relative;
 }
 
-dl {
-  display: block;
-}
-
 dt {
   color: #590242;
   font-size: 16px;
