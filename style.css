@@ -84,7 +84,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   position: relative;
 }
 
-dl {
+.scroll dl {
   display: flex;
 }
 
