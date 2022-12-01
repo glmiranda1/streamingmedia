@@ -199,8 +199,9 @@ main {
 }
 
 .music div {
-  position: relative;
   bottom: 5px;
+  padding: 0px;
+  position: relative;
 }
 
 /* 834PX DESKTOP SCREEN */
