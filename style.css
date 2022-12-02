@@ -227,3 +227,9 @@ audio {
 .more:hover {
   background-color: #020659;
 }
+
+footer {
+  background-color: #FFFFFF;
+  color: #590242;
+  text-align: center;
+}
