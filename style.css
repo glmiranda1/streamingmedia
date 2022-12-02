@@ -1,5 +1,16 @@
 /* SCROLL FEATURE */
 
+.scrolled {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  overflow: auto;
+}
+
+.scrolled section {
+  margin: 10px;
+  position: relative;
+}
+
 .scroll {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -161,7 +172,7 @@ body {
   background-color: #FFFFFF;
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
-  margin: 0 auto;
+  margin: auto;
   width: 834px;
 }
 
