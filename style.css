@@ -77,7 +77,7 @@
 
 @media screen and (min-width:834px) {
     ul {
-        background-color:#555555;  
+        background-color:#020873;  
         overflow: visible;
         position: absolute;
         top: 0;
@@ -114,7 +114,6 @@ html {
 
 body {
   background-color: #FFFFFF;
-  color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
   margin: auto;
   width: 834px;
@@ -160,6 +159,20 @@ h2, h3 {
   color: #590242;
   font-size: 20px;
   line-height: 2em;
+}
+
+header h2, p {
+  color: #FFFFFF;
+}
+
+header h2 {
+  padding: 0px;
+  margin: 10px;
+}
+
+header p {
+  padding: 10px;
+  margin: 0px;
 }
 
 dl {
