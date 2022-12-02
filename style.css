@@ -141,13 +141,16 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 @media screen and (min-width:834px) {
-    ul {
+    ul {  
         overflow: visible;
         position: absolute;
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+        width: 834px;
     }
+
     label span, input {
         display: none;
     }
@@ -181,6 +184,19 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: auto;
   width: 834px;
+}
+
+nav li {
+  background-color: #555555;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  display: grid;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
 }
 
 header {
