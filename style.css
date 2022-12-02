@@ -183,6 +183,10 @@ body {
   width: 834px;
 }
 
+header {
+  background: linear-gradient(90deg, rgb(33,4,217) 0%, rgb(3,10,140) 50%, rgb(0,0,0) 100%);
+}
+
 h1 {
   font-size: 22px;
   line-height: 2em;
