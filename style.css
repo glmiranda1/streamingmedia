@@ -214,6 +214,7 @@ audio {
 
 .more {
   text-decoration: none;
+  float: right;
   background-color: #590242;
   color: #FFFFFF;
   border-radius: 5px;
@@ -221,7 +222,7 @@ audio {
   width: 150px;
   display: block;
   text-align: center;
-  margin: 10px 0 30px 32px;
+  margin: 10px 30px 32px;
 }
 
 .more:hover {
