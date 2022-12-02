@@ -77,12 +77,13 @@
 
 @media screen and (min-width:834px) {
     ul {
-        background-color:#020873;  
+        background-color: #020873;  
         overflow: visible;
         position: absolute;
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
     }
   
     label span, input {
@@ -115,7 +116,7 @@ html {
 body {
   background-color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
-  margin: auto;
+  margin: 0 auto;
   width: 834px;
 }
 
@@ -128,9 +129,13 @@ nav li {
   display: inline-block;
   list-style: none;
   padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 23px;
+  padding-right: 23px;
   padding-top: 10px;
+}
+
+nav li:hover {
+  background-color: #590242;
 }
 
 nav a {
@@ -138,7 +143,7 @@ nav a {
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
-  margin: 0px;
+  text-transform: uppercase;
 }
 
 header {
@@ -163,16 +168,6 @@ h2, h3 {
 
 header h2, p {
   color: #FFFFFF;
-}
-
-header h2 {
-  padding: 0px;
-  margin: 10px;
-}
-
-header p {
-  padding: 10px;
-  margin: 0px;
 }
 
 dl {
