@@ -248,3 +248,7 @@ footer {
   color: #590242;
   text-align: center;
 }
+
+h4 {
+  font-size: 0px;
+}
