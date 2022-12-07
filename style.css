@@ -358,4 +358,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   }
+
+  .more {
+    float: right;
+  }
 }
