@@ -327,12 +327,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   #playlists div:nth-child(1) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px;
-}
-
-#playlists aside {
-  padding: -5px;
-  margin: -5px;
 }
   
   #curated div {
@@ -343,7 +337,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   #curated div:nth-child(1) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px;
   }
   
   .scrolled {
