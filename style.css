@@ -196,9 +196,8 @@ h4 {
 /* MAIN MENU STYLE */
 
 nav {
-  padding: 10px;
   position: absolute;
-  top: 0px;
+  top: 15px;
   width: 375px;
 }
 
