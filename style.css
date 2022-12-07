@@ -329,6 +329,11 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     grid-template-columns: 1fr 1fr;
     margin: 10px;
 }
+
+#playlists aside {
+  padding: -5px;
+  margin: -5px;
+}
   
   #curated div {
     display: grid;
