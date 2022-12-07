@@ -324,7 +324,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     grid-template-columns: 1fr;
   }
   
-  #playlists div:nth-child(1) {
+  #playlists h4 + div {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -334,10 +334,10 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     grid-template-columns: 1fr;
   }
 
-  #curated div:nth-child(1) {
+  #curated h4 + div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
+}
   
   .scrolled {
     display: grid;
