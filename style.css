@@ -1,21 +1,175 @@
-/* SCROLL FEATURE */
+/* MAIN STYLE @ 375PX SCALE*/
 
-.listing {
-  clear: both;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+html {
+  background-color: #020659;
 }
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  width: 375px;
+}
+
+header {
+  background: linear-gradient(90deg, rgb(33,4,217) 0%, rgb(3,10,140) 50%, rgb(0,0,0) 100%);
+}
+
+ h1 {
+   background-color: #020873; 
+   color: #FFFFFF;
+   padding: 5px;
+   text-align: center;
+  }
+
+h4 {
+  font-size: 0px;
+}
+
+/* NAVIGATION MENU */
+
+nav li {
+  display: grid;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+nav a {
+  color: #FFFFFF;
+  display: grid;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li:hover {
+  background-color: #590242;
+}
+
+header section {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+header h2, p {
+  color: #FFFFFF;
+}
+
+header h2 {
+  font-size: 20px;
+}
+
+h2, h3 {
+  color: #590242;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+dl {
+  color: #590242;
+}
+
+dt {
+  font-style: italic;
+}
+
+.scroll div {
+  position: absolute;
+  top: 251px;
+  background-color: rgba(255,255,255,.75);
+  padding: 5px;
+  height: 50px;
+  width: 350px;
+}
+
+#playlists {
+  clear: both;
+}
+
+#playlists section {
+  background-color: #0D8DF8;
+  color: #FFFFFF;
+  padding: 5px;
+  text-align: center;
+}
+
+#playlists > div {
+  background-color: #2699FB;
+}
+
+#playlists h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#curated {
+  clear: both;
+}
+
+#curated section {
+  background-color: #030A8C;
+  color: #FFFFFF;
+  padding: 5px;
+  text-align: center;
+}
+
+#curated > div {
+  background-color: #020873;
+}
+
+#curated h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.more {
+  text-decoration: none;
+  float: left;
+  background-color: #590242;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  margin: 10px 30px 32px;
+}
+
+.more:hover {
+  background-color: #020659;
+}
+
+footer {
+  background-color: #FFFFFF;
+  clear: both;
+  color: #590242;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  font-size: 0px;
+}
+
+/* MAIN SCROLL FEATURE */
 
 .scrolled {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  height: 250px;
-  overflow: auto;
+  grid-template-columns: repeat(5, 1fr);
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .scrolled section {
   margin: 10px;
   position: relative;
+}
+
+.scrolled div {
+  width: 350px;
 }
 
 .scroll {
@@ -38,6 +192,73 @@
   height: 50px;
   width: 350px;
 }
+
+/* MAIN MENU STYLE */
+
+nav {
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  width: 375px;
+}
+
+ul {
+  background-color: #020873;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+label span {
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background-color .2s ease-out;
+    width: 18px;
+}
+label span:before, label span:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+label span:before {
+    top: 5px;
+}
+label span:after {
+    top: -5px;
+}
+input {
+    display: none;
+}
+input:checked ~ ul {
+    max-height: 500px;
+}
+input:checked ~ label span {
+    background: transparent;
+}
+input:checked ~ label span:before {
+    transform: rotate(-45deg);
+}
+input:checked ~ label span:after {
+    transform: rotate(45deg);
+}
+input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+    top: 0;
+}
+
+/* SCROLL STYLE */
 
 #trending ::-webkit-scrollbar {
   width: 15px;
@@ -73,182 +294,68 @@
   background-color: #FFFFFF;
 }
 
-/* MENU AND SCALE */
-@media screen and (min-width:375px) {
-  
-}
+/* MAIN STYLE @ 834PX */
 
 @media screen and (min-width:834px) {
   body {
-    width: 834px;
-    margin: 0 auto;
+    margin: auto;
+    width: 843px;
   }
   
-  ul {
-        background-color: #020873;  
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        margin: 0 auto;
-    }
+  nav {
+    background-color: #020873;
+    width: 834px;
+  }
   
-  label span, input {
+  ul {   
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+    label span, input {
         display: none;
     }
+  
+  #playlists div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  #playlists div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
 }
+  
+  #curated div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-/* AUDIO STYLE */
+  #curated div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+  }
+  
+  .scrolled {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    height: 250px;
+    overflow: auto;
+  }
 
-audio::-webkit-media-controls-mute-button {
-  background-color: #FFFFFF;
-  border-radius: 50%;
-}
-
-audio::-webkit-media-controls-play-button {
-  background-color: #FFFFFF;
-  border-radius: 50%;
-}
-
-audio::-webkit-media-controls-enclosure {
-  background-color: rgba(255,255,255,.5);
-}
-
-audio {
-  position: absolute;
-  bottom: 150px;
-  left: 5px;
-}
-
-/* MAIN STYLE */
-
-html {
-  background-color: #525252;
-}
-
-body {
-  background-color: #FFFFFF;
-  font-family: 'Raleway', sans-serif;
-}
-
-header {
-  background: linear-gradient(90deg, rgb(33,4,217) 0%, rgb(3,10,140) 50%, rgb(0,0,0) 100%);
-}
-
-nav li {
-  display: inline-block;
-  padding-bottom: 10px;
-  padding-left: 23px;
-  padding-right: 23px;
-  padding-top: 10px;
-}
-
-nav a {
-  color: #FFFFFF;
-  display: grid;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-nav li:hover {
-  background-color: #590242;
-}
-
-header {
-  padding-left: 15px;
-  padding-bottom: 10px;
-}
-
-header h2, p {
-  color: #FFFFFF;
-}
-
-header h2 {
-  font-size: 20px;
-}
-
-h2, h3 {
-  color: #590242;
+.scrolled section {
   margin: 10px;
-  text-transform: uppercase;
-}
-
-dl {
-  color: #590242;
-}
-
-dt {
-  font-style: italic;
-}
-
-#playlists section {
-  background-color: #2699FB;
-  color: #FFFFFF;
-  padding: 5px;
-}
-
-#playlists article {
-  background-color: #0D8DFB;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 10px;
-}
-
-#playlists div {
-  text-align: center;
-}
-
-#playlists h3 {
-  color: #FFFFFF;
-}
-
-#curated section {
-  background-color: #030A8C;
-  color: #FFFFFF;
-  padding: 5px;
-}
-
-#curated article {
-  background-color: #020873;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 10px;
-}
-
-#curated div {
-  text-align: center;
-}
-
-#curated h3 {
-  color: #FFFFFF;
-}
-
-.more {
-  text-decoration: none;
-  float: right;
-  background-color: #590242;
-  color: #FFFFFF;
-  border-radius: 5px;
-  padding: 10px;
-  width: 150px;
-  display: block;
-  text-align: center;
-  margin: 10px 30px 32px;
-}
-
-.more:hover {
-  background-color: #020659;
-}
-
-footer {
-  background-color: #FFFFFF;
+  position: relative;
+  }
+  
+ .listing {
   clear: both;
-  color: #590242;
-  text-align: center;
-}
-
-h4 {
-  font-size: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
 }
